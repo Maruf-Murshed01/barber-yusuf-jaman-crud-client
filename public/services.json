@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Hair Cut",
+        "price": "29",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/kDjz017/servicepic.jpg"
+    },
+    {
+        "name": "Blow dry & Curl",
+        "price": "59",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/kDjz017/servicepic.jpg"
+    },
+    {
+        "name": "Shampoo & Set",
+        "price": "89",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/kDjz017/servicepic.jpg"
+    },
+    {
+        "name": "Color & Hair Treatment",
+        "price": "129",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/kDjz017/servicepic.jpg"
+    },
+    {
+        "name": "Color & Highlights",
+        "price": "119",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/kDjz017/servicepic.jpg"
+    },
+    {
+        "name": "Hair Natural Treatment",
+        "price": "159",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/kDjz017/servicepic.jpg"
+    }
+]

@@ -29,4 +29,3 @@ This is a site of a barber named Yusuf Jaman. Where people can see schedules, an
 12. some npm packages
 13. Responsiveness (for phone, tab, PC)
 
-# barber-yusuf-jaman-crud-client

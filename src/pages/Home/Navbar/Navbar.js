@@ -19,6 +19,7 @@ const Navbar = () => {
                     <>
                         <li><Link to='/myreview' className='font-semibold'>my reviews</Link></li>
                         <li><Link to='' className='font-semibold'>add service</Link></li>
+                        <li><Link onClick={handleLogOut} className='font-semibold'>log out</Link></li>
                     </>
                     :
                     ""
@@ -49,8 +50,8 @@ const Navbar = () => {
                         <>
                             <img className='w-10 h-10 rounded-full' src={user?.photoURL} alt="" />
                             <p className='font-semibold ml-5'>{user?.displayName}</p>
-                            <p className='font-semibold ml-5'>{user?.email}</p>
-                            <button onClick={handleLogOut} className='font-semibold ml-5'> Log Out </button>
+                            {/* <p className='font-semibold ml-5 hidden sm:contents'>{user?.email}</p> */}
+                            {/* <button onClick={handleLogOut} className='font-semibold ml-5'> Log Out </button> */}
                         </> :
 
                         <>

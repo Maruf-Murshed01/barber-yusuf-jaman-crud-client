@@ -7,7 +7,7 @@ const Review = ({ rvs }) => {
         <>
 
         <div className='p-4'>
-        <div className="card w-full bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
                 <div className='flex items-center space-x-10'>
                     <h2 className="card-title">{displayName}</h2>

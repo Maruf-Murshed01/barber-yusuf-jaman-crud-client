@@ -58,15 +58,15 @@ const DetailsService = () => {
     }
     return (
         <>
-            <div className="card w-full bg-base-100 shadow-xl">
+            <div className="card w-3/4 mx-auto pt-5 bg-base-100 ">
                 <h2 className='text-black text-3xl text-center font-semibold my-12'>Service Details</h2>
                 <figure className="px-10 pt-10">
                     <img src={img} alt="Shoes" />
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{name}</h2>
-                    <p>{description}</p>
-                    <p>price: ${price}</p>
+                    <p className='text-justify'>{description}</p>
+                    <p><b>price: ${price}</b></p>
                 </div>
             </div>
 
@@ -75,7 +75,7 @@ const DetailsService = () => {
             <div>
                 <h2 className='text-black text-3xl text-center font-semibold my-12'>Service Review</h2>
 
-                <div className=''>
+                <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                     {
                         allReviews.length < 1 ?
                             <p className='text-black text-center font-semibold'>no review yet</p>

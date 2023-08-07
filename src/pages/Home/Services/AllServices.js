@@ -14,7 +14,7 @@ const AllServices = () => {
         <div>
             <div className='ml-16 mb-16'>
                 <h2 className='text-black text-3xl text-center font-semibold my-12'>All Services</h2>
-                <div className='grid grid-cols-3 gap-4 '>
+                <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 '>
                     {
                         sureAllServices.map(service => <ServiceCard
                             key={service._id}

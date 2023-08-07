@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/UserContext';
 
 const Login = () => {
+    const navigate = useNavigate()
     const { logIn, googleSignIn } = useContext(AuthContext)
 
     const handleLogin = (event) => {
@@ -15,6 +16,7 @@ const Login = () => {
         logIn(email, password)
             .then(result => {
                 const user = result.user
+                navigate('/')
             })
             .catch(err => console.error(err))
     }

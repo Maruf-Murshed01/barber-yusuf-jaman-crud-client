@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
-import { Link, Navigate} from 'react-router-dom';
+import { Link, Navigate, useNavigate} from 'react-router-dom';
 import { AuthContext } from '../../../contexts/UserContext';
 
 const SignUp = () => {
+    const navigate = useNavigate()
     const {signIn, createUserProfile} = useContext(AuthContext)
     const handleSignUp = event => {
         event.preventDefault();
@@ -19,7 +20,7 @@ const SignUp = () => {
             updateSingleProfile(name, photourl)
             console.log(user);
             form.reset();
-            <Navigate to="/home" replace={true} />
+            // <Navigate to="/home" replace={true} />
         })
         .catch(err => console.error(err))
 
@@ -29,7 +30,9 @@ const SignUp = () => {
                 photoURL: photourl
             }
             createUserProfile(profile)
-            .then(() => {})
+            .then(() => {
+                navigate('/')
+            })
             .catch(err => console.error(err))
         }
     }
